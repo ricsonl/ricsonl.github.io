@@ -1,0 +1,21 @@
+:root {
+  --blue: #45a29e;
+  --purple: #593d8d;
+  --grey: #1f2833;
+  --white: #c5c6c7;
+  --black: #0b0c10;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Maven Pro, Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: var(--grey);
+  -webkit-font-smoothing: antialiased;
+}
